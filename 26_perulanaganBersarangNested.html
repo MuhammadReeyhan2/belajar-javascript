@@ -1,0 +1,14 @@
+<body>
+    <script>
+        var ulangi = confirm("apakah anda ingin mengulang? ");
+        var counter = 5 ;
+
+        while (ulangi){
+            counter--;
+            var bintang = "+".repeat(counter) + "<br>";
+            document.write(counter + ": " + bintang);
+            ulangi = confirm("Apakah anda ingin mengulang?");
+        }
+    </script>
+    
+</body>
